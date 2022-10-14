@@ -1,0 +1,265 @@
+*{
+    margin:0;
+    padding:0;
+    position:fixed;
+} 
+.Nav{
+    top: 0px;
+    left: 0px;
+    width: 1920px;
+    height: 504px;
+    background: transparent linear-gradient(104deg, #F2F2F2 0%, #E8E8E8 100%) 0% 0% no-repeat padding-box;
+    opacity: 1;
+    display:inline-block;
+}
+
+H1{
+    top: 188px;
+    left: 424px;
+    width: 749px;
+    height: 52px;
+    text-align: left;
+    font: normal normal 300 38px/52px Open Sans;
+    letter-spacing: 0px;
+    color: #6292A5;
+    opacity: 1;
+}
+H2{
+    top: 292px;
+    left: 416px;
+    width: 812px;
+    height: 27px;
+    text-align: left;
+    font: normal normal normal 20px/27px Open Sans;
+    letter-spacing: 0px;
+    color: #6292A5;
+    opacity: 1;
+}
+
+.Add{
+    top: 187px;
+    left: 1244px;
+    width: 260px;
+    height: 61px;
+    background: #FEA500 0% 0% no-repeat padding-box;
+    border-radius: 15px;
+    opacity: 1;
+}
+.AddBox{
+    top: 187px;
+    left: 1244px;
+    width: 260px;
+    height: 61px;
+    background: #FEA500 0% 0% no-repeat padding-box;
+    border-radius: 15px;
+    opacity: 1;
+}
+img{
+    top: 25px;
+    left: 43px;
+    width: 315px;
+    height: 147px;
+    background: transparent url('img/Group 3571.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+    
+}
+
+.Sākums{
+    top: 38px;
+    left: 795px;
+    width: 74px;
+    height: 24px;
+    text-align: center;
+    font: normal normal 800 18px/24px Open Sans;
+    letter-spacing: 0px;
+    color: #6292A5;
+    opacity: 1;   
+}
+
+.Par{
+    top: 38px;
+    left: 895px;
+    width: 98px;
+    height: 24px;
+    text-align: center;
+    font: normal normal 600 18px/24px Open Sans;
+    letter-spacing: 0px;
+    color: #3C515A;
+    opacity: 1;
+}
+
+.Kā{
+    top: 38px;
+    left: 1019px;
+    width: 134px;
+    height: 24px;
+    text-align: center;
+    font: normal normal 600 18px/24px Open Sans;
+    letter-spacing: 0px;
+    color: #3C515A;
+    opacity: 1;
+}
+
+.Kontakti{
+    top: 38px;
+    left: 1180px;
+    width: 74px;
+    height: 24px;
+    text-align: center;
+    font: normal normal 600 18px/24px Open Sans;
+    letter-spacing: 0px;
+    color: #3C515A;
+    opacity: 1;
+}
+
+.Valoda{
+    top: 39px;
+    left: 1281px;
+    width: 29px;
+    height: 22px;
+    text-align: center;
+    font: normal normal normal 16px/30px Open Sans;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+.Valodabox{
+    top: 36px;
+    left: 1281px;
+    width: 29px;
+    height: 29px;
+    background: #ADC3CC 0% 0% no-repeat padding-box;
+    opacity: 1;
+    border-radius:50px;
+}    
+
+.Reģistrēties{
+    top: 40px;
+    left: 1375px;
+    width: 90px;
+    height: 22px;
+    text-align: left;
+    font: normal normal normal 16px/22px Open Sans;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+    
+}
+.RegBox{
+    top: 29px;
+    left: 1334px;
+    width: 145px;
+    height: 43px;
+    background: #6292A5 0% 0% no-repeat padding-box;
+    border-radius: 20px;
+    opacity: 1;
+}
+
+.LogBox{
+    top: 29px;
+    left: 1490px;
+    width: 129px;
+    height: 43px;
+    border: 1px solid #6292A5;
+    border-radius: 20px;
+    opacity: 1;
+}
+.p2{
+    top: 40px;
+    left: 1375px;
+    width: 90px;
+    height: 22px;
+    text-align: left;
+    font: normal normal normal 16px/22px Open Sans;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+
+.ielogoties{
+    top: 29px;
+    left: 1490px;
+    width: 129px;
+    height: 43px;
+    border: 1px solid #6292A5;
+    border-radius: 20px;
+    opacity: 1;
+}
+.Facebook{
+    top: 33px;
+    left: 1664px;
+    width: 32px;
+    height: 32px;
+    background: transparent url('img/Group 4029.png') 0% 0% no-repeat padding-box;
+    opacity: 1;  
+}
+
+.Instagram{
+    top: 33px;
+    left: 1706px;
+    width: 32px;
+    height: 32px;
+    background: transparent url('img/Group 4030.png') 0% 0% no-repeat padding-box;
+    opacity: 1; 
+}
+
+.LinkedIn{
+    top: 33px;
+    left: 1748px;
+    width: 32px;
+    height: 32px;
+    background: transparent url('img/Group 4031.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+.Līnija{
+    top: 99px;
+    left: 788px;
+    width: 88px;
+    height: 0px;
+    border: 7px solid #6292A5;
+    opacity: 1;
+}
+
+input{
+    top: 336px;
+    left: 416px;
+    width: 1088px;
+    height: 70px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 30px #00000021;
+    border-radius: 10px;
+    opacity: 1;
+}
+::placeholder{
+    top: 360px;
+    left: 507px;
+    width: 698px;
+    height: 22px;
+    text-align: left;
+    font: italic normal 300 16px/22px Open Sans;
+    letter-spacing: 0.32px;
+    color: #98B9C7;
+    opacity: 1;
+}
+
+.Pievienot{
+    top: 187px;
+    left: 1244px;
+    width: 260px;
+    height: 61px;
+    background: #FEA500 0% 0% no-repeat padding-box;
+    border-radius: 15px;
+    opacity: 1;
+    z-Index:1;
+}
+.Addbox{
+    top: 202px;
+    left: 1259px;
+    width: 29px;
+    height: 29px;
+    background: transparent url('img/Icon ionic-ios-add-circle.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+    z-index:2;  
+   
+}
