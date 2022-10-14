@@ -122,6 +122,7 @@ img{
     letter-spacing: 0px;
     color: #FFFFFF;
     opacity: 1;
+    
 }
 .Valodabox{
     top: 36px;
@@ -143,8 +144,8 @@ img{
     letter-spacing: 0px;
     color: #FFFFFF;
     opacity: 1;
-    
 }
+
 .RegBox{
     top: 29px;
     left: 1334px;
@@ -164,6 +165,17 @@ img{
     border-radius: 20px;
     opacity: 1;
 }
+.Ielogoties{
+    top: 40px;
+    left: 1529px;
+    width: 75px;
+    height: 22px;
+    text-align: left;
+    font: normal normal normal 16px/22px Open Sans;
+    letter-spacing: 0px;
+    color: #6292A5;
+    opacity: 1;
+}
 .p2{
     top: 40px;
     left: 1375px;
@@ -176,15 +188,6 @@ img{
     opacity: 1;
 }
 
-.ielogoties{
-    top: 29px;
-    left: 1490px;
-    width: 129px;
-    height: 43px;
-    border: 1px solid #6292A5;
-    border-radius: 20px;
-    opacity: 1;
-}
 .Facebook{
     top: 33px;
     left: 1664px;
@@ -217,7 +220,7 @@ img{
     left: 788px;
     width: 88px;
     height: 0px;
-    border: 7px solid #6292A5;
+    border-top: 7px solid #6292A5;
     opacity: 1;
 }
 
@@ -232,6 +235,7 @@ input{
     opacity: 1;
 }
 ::placeholder{
+    padding:91px;
     top: 360px;
     left: 507px;
     width: 698px;
@@ -244,6 +248,17 @@ input{
 }
 
 .Pievienot{
+    top: 205px;
+    left: 1296px;
+    width: 194px;
+    height: 24px;
+    text-align: center;
+    font: normal normal 600 18px/24px Open Sans;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+.Addbox{
     top: 187px;
     left: 1244px;
     width: 260px;
@@ -251,15 +266,5 @@ input{
     background: #FEA500 0% 0% no-repeat padding-box;
     border-radius: 15px;
     opacity: 1;
-    z-Index:1;
-}
-.Addbox{
-    top: 202px;
-    left: 1259px;
-    width: 29px;
-    height: 29px;
-    background: transparent url('img/Icon ionic-ios-add-circle.png') 0% 0% no-repeat padding-box;
-    opacity: 1;
-    z-index:2;  
    
 }
