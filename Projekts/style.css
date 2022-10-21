@@ -2,6 +2,9 @@
     margin:0;
     padding:0;
     position:fixed;
+    max-height: 100vh;
+    overflow-y: auto;
+   
 } 
 .Nav{
     top: 0px;
@@ -113,7 +116,7 @@ img{
 }
 
 .Valoda{
-    top: 39px;
+    top: 36px;
     left: 1281px;
     width: 29px;
     height: 22px;
@@ -233,6 +236,7 @@ input{
     box-shadow: 0px 3px 30px #00000021;
     border-radius: 10px;
     opacity: 1;
+    border:hidden;
 }
 ::placeholder{
     padding:91px;
@@ -245,6 +249,7 @@ input{
     letter-spacing: 0.32px;
     color: #98B9C7;
     opacity: 1;
+    
 }
 
 .Pievienot{
@@ -266,5 +271,167 @@ input{
     background: #FEA500 0% 0% no-repeat padding-box;
     border-radius: 15px;
     opacity: 1;
+   }
+.Pop{
+    top: 577px;
+    left: 140px;
+    width: 284px;
+    height: 23px;
+    text-align: left;
+    font: normal normal 600 17px/23px Open Sans;
+    letter-spacing: 1.7px;
+    color: #6292A5;
+    text-transform: uppercase;
+    opacity: 1;
+}
+
+.VisasBox{
+    top: 569px;
+    left: 464px;
+    width: 196px;
+    height: 39px;
+    background: #FFD322 0% 0% no-repeat padding-box;
+    border-radius: 20px;
+    opacity: 1;
+    z-index:1;
+}
+.Visas{
+    top: 578px;
+    left: 481px;
+    width: 136px;
+    height: 20px;
+    text-align: center;
+    font: normal normal normal 15px/20px Open Sans;
+    letter-spacing: 0px;
+    color: #436572;
+    opacity: 1;
+    z-index:2;
+}
+
+ .B{
+    top: 569px;
+    left: 677px;
+    width: 116px;
+    height: 39px;
+    border: 1px solid #6292A53D;
+    border-radius: 20px;
+    opacity: 1;
+    text-align: center;
+    font: normal normal normal 15px/20px Open Sans;
+    letter-spacing: 0px;
+    color: #6292A5;
+    opacity: 1;
+  } 
+
+.Grāmatas{
+    top: 578px;
+    left: 677px;
+    width: 116px;
+    height: 39px;
+    border-radius: 20px;
+    opacity: 1; 
+    
+} 
+.Dārzs{
+    top: 578px;
+    left: 810px;
+    width: 98px;
+    height: 39px;
+    border-radius: 20px;
+    opacity: 1;
+
+}
+.Rokdarbi{
+    top: 578px;
+    left: 925px;
+    width: 125px;
+    height: 39px;
+    border-radius: 20px;
+    opacity: 1;
+}
+.Pakalpojumi{
+    top: 578px;
+    left: 1067px;
+    width: 141px;
+    height: 39px;
+    border-radius: 20px;
+    opacity: 1;  
+}
+.Mēbeles{
+    top: 578px;
+    left: 1225px;
+    width: 119px;
+    height: 39px;
+    border-radius: 20px;
+    opacity: 1;
+}
+.Pārtika{
+    top: 578px;
+    left: 1361px;
+    width: 119px;
+    height: 39px;
+    border-radius: 20px;
+    opacity: 1;
+}
+.AutoMoto{
+    top: 578px;
+    left: 1497px;
+    width: 147px;
+    height: 39px;
+    border-radius: 20px;
+    opacity: 1;
+}
+.Bērniem{
+    top: 578px;
+    left: 1661px;
+    width: 119px;
+    height: 39px;
+    border-radius: 20px;
+    opacity: 1;
+}
+
+.Apskatīt{
+    top: 627px;
+    left: 1568px;
+    width: 212px;
+    height: 22px;
+    text-align: right;
+    text-decoration: underline;
+    font: normal normal bold 16px/22px Open Sans;
+    letter-spacing: 0px;
+    color: #6292A5;
+    opacity: 1;
+}
+.Line{
+    top:640px;
+    left:140px;
+    width: 1400px;
+    height: 0px;
+    border-top: 3px solid #98B9C7;
+    opacity: 1;
+}
+
+.image-grid{
+
+    top: 696px;
+    left: 140px;
+    width:1920px;
+
+       --num-cols:4;  
+    --row-height:300px;
+
+    box-sizing:border-box;
    
+    
+    display:grid;
+    grid-template-columns: repeat(var(--num-cols), 1fr);
+    grid-auto-rows: var(--row-height);
+    
+}
+
+.image-grid > img{
+    width:398px;
+    height:auto;
+    object-fit:cover;
+    position:relative;
 }
